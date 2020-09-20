@@ -52,9 +52,9 @@ class InteractiveRecord
   end
 
   def self.find_by(attribute)
-    sql = <<-SQL
-      SELECT *
+    # sql = <<-SQL
+    #   SELECT *
     
-    SQL
+    # SQL
   end 
 end
